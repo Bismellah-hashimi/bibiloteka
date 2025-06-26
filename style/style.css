@@ -1,0 +1,434 @@
+body {
+  padding: 0%;
+  margin: auto;
+  background-color: rgb(215, 228, 224)
+}
+
+ul {
+  margin: 0px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #d49217;
+  position: relative;
+  padding-left: 40%;
+
+}
+
+li {
+  float: left;
+  list-style-type: none;
+
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 30px;
+
+}
+
+.gold {
+  text-align: center;
+  font-size: 50px;
+  color: #933e09;
+  font-style: italic;
+  margin-top: 0%;
+  padding-top: 4%;
+  font-family: 'Style Script';
+
+}
+
+h1 {
+  margin-top: -1.5%;
+
+}
+
+/* écriture [!] : principale - main*/
+.principale {
+  width: 600px;
+  text-align: center;
+}
+
+.principale {
+  text-align: right;
+  margin-right: 500px;
+}
+
+.principale_main {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-top: -8%;
+}
+
+/* écriture [!]*/
+.contniare-un {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  gap: 10px;
+  border-radius: 5px;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  /* color:aqua !important; */
+}
+
+/* écriture [!]*/
+.cologne-un {
+  grid-column: 1;
+  border: none;
+  box-shadow: 2px 2px 5px #9eb7c5;
+
+  width: 90%;
+
+}
+
+/* écriture [!]*/
+.cologne-deux {
+  grid-column: 2;
+  border-style: solid;
+  border: none;
+  box-shadow: 2px 2px 5px #9eb7c5;
+  padding-bottom: 254px;
+  width: 90%
+}
+
+.cologne-trois {
+  grid-column: 3;
+
+  border-style: solid;
+  border: none;
+  box-shadow: 2px 2px 5px #9eb7c5;
+  width: 90%
+}
+
+
+h3 {
+  text-align: center;
+  font-style: italic;
+  margin-top: 50px;
+
+}
+
+p {
+  text-align: justify;
+  padding: 5%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+
+}
+
+.livre {
+  text-align: center;
+  margin: 0.5%;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 5px #9eb7c5;
+  padding: 15.9px;
+  border-radius: 5px;
+}
+
+.livre h2 {
+  color: darkblue;
+  font-family: sans-serif;
+}
+
+.livre p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.livre:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.container-background {
+  background-color: rgb(201, 221, 226);
+  padding: 1%;
+
+}
+
+.pied-de-page {
+  background-color: #000;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.livre {
+  padding-top: 0.5%;
+}
+
+.p-footer {
+  text-align: center;
+  margin: 0%;
+  padding: 20.5px;
+
+
+}
+
+span {
+  font-weight: bold;
+}
+
+
+.titre-livres {
+  background-color: #fff;
+
+}
+
+.contact h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: larger;
+}
+
+
+.bacround-contact {
+  background-color: #fff;
+}
+
+
+.bac-bibliotheque {
+  background-color: #fff;
+  width: 99%;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 0.5%;
+  padding-bottom: 5.1%;
+  margin-bottom: 0.5%;
+}
+
+
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #bb6413;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+
+}
+
+
+.Contact {
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 0.5%;
+  margin-top: -1%;
+  padding-bottom: 0.7%;
+}
+
+.Contact h3 {
+  font-family: sans-serif;
+  font-style: normal;
+  margin-top: 30px;
+  padding-bottom: 7%;
+}
+
+.col-25 {
+  float: center;
+  width: 100%;
+  margin-top: 6px;
+
+}
+
+.col-75 {
+  float: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bac {
+  background-color: #c2ccd3d0;
+}
+
+.bacround-livre {
+  width: 99%;
+  margin: auto;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+textarea {
+  width: 95%;
+  resize: none;
+  text-align: center;
+}
+
+
+.row-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  resize: none;
+  text-align: center;
+  padding-bottom: 44.1%;
+}
+
+.box-un {
+  padding-left: 15px;
+  padding-right: 15px;
+  resize: none;
+  text-align: center;
+
+}
+
+.box-deux {
+  padding-left: 15px;
+  padding-right: 15px;
+  resize: none;
+  text-align: center;
+
+}
+
+.appelle {
+  text-align: center;
+  padding-top: 6%;
+}
+
+.colors {
+  color: darkblue;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.label{
+  font-weight: bold;
+}
+
+
+
+
+.main-container {
+  background-color: #fff;
+}
+
+.galerie-title {
+  color: #000000ab;
+  padding-left: 10px;
+  font-family: sans-serif;
+  padding-top: 3%;
+}
+
+.vidéo {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 10px;
+  
+}
+
+.regadon-video {
+  text-align: center;
+ color: #fff;
+ margin-top: 80px;
+  font-family: inherit;
+  font-size:large;
+margin:auto;
+  width: 30%;
+  height: 70px;
+  background-color: rgb(54, 192, 185);
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color: violet; left: 330px; top: 0px;}
+}
+
+.canape {
+  text-align: center;
+  border-style: solid;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.podcasts {
+  text-align: center;
+  padding-top: 180px;
+  height: 300px;
+
+}
+
+.left {
+  float: left;
+  width: 50%;
+  background-color: #f4f4f4;
+  height: 100vh;
+  background-image: url(../img/wave-haikei\ \(1\).svg);
+
+}
+
+.right {
+  float: right;
+  width: 50%;
+  color: white;
+  height: 100vh;
+  background-image: url(../img/pngtree-music-pattern-with-music-notes-on-a-dark-background-picture-image_2780367.jpg);
+
+}
+
+
+.chansons-titre {
+  font-family: initial;
+  color: #e6fa2e;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+
+.chanson-par {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  border-radius: 4px;
+  border-style: solid;
+  background-color: #0000009d;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: larger;
+
+}
+
+.hello {
+  text-align: right;
+  margin-top: 50px;
+}
